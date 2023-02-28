@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="QwertyThoughts(failed)">
+    <classes>
+      <class name="org.QwertyThoughts.QwertyThoughts">
+        <methods>
+          <include name="loginTest1"/>
+          <include name="init"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- org.QwertyThoughts.QwertyThoughts -->
+    </classes>
+  </test> <!-- QwertyThoughts(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
